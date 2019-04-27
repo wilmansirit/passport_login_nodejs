@@ -1,1 +1,1 @@
-Uso de Sequelize como ORM en Node
+Uso de Sequelize como ORM en NodeJs
