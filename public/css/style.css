@@ -1,0 +1,29 @@
+body {
+	font-family: 'Nunito', cursive;
+}
+
+.fas, .fab {
+	color: teal;
+}
+
+.contenedor {
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin-top: 1em !important;
+	margin-right: auto;
+	margin-left: auto;
+	min-height: 50px;
+	text-align: center;
+} 
+
+.register {
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}

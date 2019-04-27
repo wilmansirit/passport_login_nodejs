@@ -1,0 +1,24 @@
+extends ../layout
+
+block content
+
+	.ui.three.column.grid
+		.column.row
+			.column.register
+				i.fab.fa-node-js.fa-3x
+		.column.row
+			.column.register
+				i.fas.fa-user-check.fa-lg
+					h3(style="display: inline-block") Login to Access
+		.column.row
+			.column.register
+				form.ui.form
+					.field
+						.ui.left.icon.input
+							i.user.icon
+							input(type='text', name='first-name', placeholder='User')
+					.field
+						.ui.left.icon.input
+							i.lock.icon
+							input(type='text', name='last-name', placeholder='Password')
+					button.ui.fluid.large.teal.button(type='submit') Entrar
